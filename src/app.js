@@ -13,8 +13,7 @@ const app = express();
 app.get("/", (req, res) => {
   res.json({
     app: "Expenses-Tracker",
-    developer: "inovotek",
-    youtubeChannel: "i-Novotek",
+    developer: "BalaSubramanian",
   });
 });
 //DB
